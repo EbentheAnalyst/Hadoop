@@ -1,3 +1,4 @@
+--Sample
 --Drops existing database
 DROP DATABASE IF EXISTS movies CASCADE;
 
