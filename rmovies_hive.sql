@@ -18,7 +18,7 @@ LINES TERMINATED BY '\n'
 STORED AS TEXTFILE;
 
 --Loads data from local data file
-LOAD DATA LOCAl INPATH '/home/maria_dev/ratings.data' 
+LOAD DATA LOCAl INPATH '/home/maria_dev/testrates.data' 
 INTO TABLE Ratings;
 --Get metadata of table
 DESCRIBE Ratings;
