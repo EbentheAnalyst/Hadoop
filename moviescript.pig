@@ -1,4 +1,4 @@
-ratings = LOAD '/user/maria_dev/pig/ratings.data' AS (userID:int, movieID:int, rating:int, ratingTime:int);
+ratings = LOAD '/user/maria_dev/pig/testrates.data' AS (userID:int, movieID:int, rating:int, ratingTime:int);
 
 metadata = LOAD '/user/maria_dev/pig/movies.item' USING PigStorage('|')
 	AS (movieID:int, movieTitle:chararray, releaseDate:chararray, videoRealese:chararray, imdblink:chararray);
